@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--italian-flag: linear-gradient(
+			90deg,
+			rgba(4, 120, 87, 1) 33%,
+			rgba(244, 244, 245, 1) 33%,
+			rgba(255, 255, 255, 1) 66%,
+			rgba(185, 28, 28, 1) 66%
+		);
+	}
+	html {
+		@apply h-full font-kodchasan text-gray-800;
+	}
+}

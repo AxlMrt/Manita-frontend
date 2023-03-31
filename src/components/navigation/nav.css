@@ -1,0 +1,43 @@
+.closing {
+	z-index: 1005;
+	@apply md:fixed md:h-screen md:w-full top-0 left-0;;
+}
+.nav_container {
+	background: var(--italian-flag);;
+	@apply flex justify-center py-1.5 tracking-wider drop-shadow-md;
+}
+
+.nav-items {
+	@apply flex items-center gap-5 ease-in-out duration-150;
+}
+
+.separator {
+	width: 8px;
+	height: 8px;
+	border: 1px solid white;
+	transform: rotate(45deg);
+	@apply hidden md:block;
+}
+
+
+@media screen and (max-width: 769px) {
+	.nav_container {
+		background: rgb(15, 23, 42, .8);
+		z-index: 1005;
+		@apply h-screen w-[35vw] top-0 left-0 fixed flex flex-col justify-between px-5 py-20 text-white sm:w-3/5 ease-in-out duration-300;
+	}
+
+	.hamburger {
+		z-index: 1010;
+		@apply fixed top-7 left-7;
+	}
+
+	.banderole {
+		background: var(--italian-flag);
+		@apply py-3 drop-shadow-md;
+	}
+
+	.nav ul > li {
+		@apply my-3;
+	}
+}

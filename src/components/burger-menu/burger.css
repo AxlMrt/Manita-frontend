@@ -1,0 +1,4 @@
+.burger-menu {
+	@apply hidden md:block absolute ;
+	z-index: 1010;
+}
