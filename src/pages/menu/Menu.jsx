@@ -24,6 +24,7 @@ export default function Menu({ isOpen, onClose }) {
 	const [panuozzis, setPanuozzis] = useState(panuozziData);
 	const [desserts, setDesserts] = useState(dessertData);
 	const [drinks, setDrinks] = useState(drinkData);
+	console.log(dessertData)
 
 	const [pizzaVisible, setPizzaVisible] = useState(false);
 	const [panuozziVisible, setPanuozziVisible] = useState(false);

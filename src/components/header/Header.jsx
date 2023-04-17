@@ -8,13 +8,13 @@ export default function Header() {
 		<header className='flex justify-between items-center bg-white p-12 md:justify-center md:py-16 md:px-5'>
 			<div className='w-1/4 flex justify-start items-center md:hidden'>
 				<div>
-					<a href='tel:+33387730773'>
+					<a href='tel:+33387790773'>
 						<BsPhoneFill size={30} />
 					</a>
 				</div>
 				<div className='phone ml-2'>
 					<a
-						href='tel:+33387730773'
+						href='tel:+33387790773'
 						className='text-xs font-bold tracking-widest hover:text-gray-500 ease-in-out duration-150'
 					>
 						03 87 79 07 73

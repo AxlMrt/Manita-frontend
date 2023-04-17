@@ -79,7 +79,7 @@ export default function Nav({ isOpen, onClose, visited, path }) {
 							57000 Metz
 						</div>
 						<div>
-							<a href='tel:+33387730773' className='flex justify-center mt-5'>
+							<a href='tel:+33387790773' className='flex justify-center mt-5'>
 								<BsPhoneFill size={20} />
 							</a>
 						</div>

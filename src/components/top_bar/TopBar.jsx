@@ -12,13 +12,13 @@ export default function TopBar({ visited }) {
 					transition={!visited && { delay: 1.2, duration: 0.8 }}
 				>
 					<div>
-						<a href='tel:+33387730773'>
+						<a href='tel:+33387790773'>
 							<BsPhoneFill size={30} />
 						</a>
 					</div>
 					<div className='phone ml-2'>
 						<a
-							href='tel:+33387730773'
+							href='tel:+33387790773'
 							className='text-xs font-bold tracking-widest hover:text-gray-500 ease-in-out duration-150'
 						>
 							03 87 79 07 73
@@ -31,7 +31,7 @@ export default function TopBar({ visited }) {
 
 				<div className='w-1/4 md:w-full md:py-3 flex justify-end gap-5'>
 					<motion.a
-						href='tel:+33387730773'
+						href='tel:+33387790773'
 						className='hidden md:block'
 						style={!visited && { opacity: 0, y: -1000 }}
 						animate={!visited && { opacity: 1, y: 0 }}
